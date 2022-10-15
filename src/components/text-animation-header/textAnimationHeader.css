@@ -1,0 +1,23 @@
+.header-text-dinamic-word{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    position: relative;
+    letter-spacing: 2px;
+    color: rgb(170, 63, 63);
+    font-size: 65px;
+}
+.header-text-dinamic-span{
+    position: absolute;
+    height: 65px;
+    border-left: 2px solid;
+    top: 10px;
+    width: 0;
+    right: 0;
+    background-color: rgb(254, 254, 255);
+    animation: typing 2s steps(9) infinite alternate;
+}
+
+@keyframes typing {
+    from {width: 100%}
+    to {width: 0}
+}

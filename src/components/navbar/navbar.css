@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex: 12;
+    width: 100vw;
+    height: 60px;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-left{
+    position: absolute;
+    left: 100px;
+}
+
+.navbar-left-text {
+    font-family: 'Quintessential', cursive;
+    color: rgb(163, 85, 85);
+    font-size: 35px;
+}
+
+
+.navbar-right{
+    position: absolute;
+    right: 50px;
+}
+
+

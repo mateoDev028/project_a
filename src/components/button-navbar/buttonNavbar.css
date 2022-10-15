@@ -1,0 +1,23 @@
+.button-options{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    width:40px;
+    height:40px;
+    border: 1px solid #8f6e15;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 100% ;
+  }
+  
+  .button-options:hover{
+    background-color: #8f6f1552;
+    cursor: pointer;
+    
+  }
+  
+  .button-options a{
+    color:rgb(7, 4, 4);
+    text-decoration:none;
+    font-size: 10px;
+  }
