@@ -5,65 +5,106 @@
     top: 15px;
     animation: bubble 2s infinite linear alternate;
 }
-
 .bubbles div{
     position: absolute;
     border-radius: 100%;
     background-color: rgba(138, 132, 132, 0.801);
 }
-
 .bubbles div:nth-child(1){
     width: 40px;
     height: 40px;
     left: 10px;
     top: 30px;
 }
-
 .bubbles div:nth-child(2){
     width: 80px;
     height: 80px;
     left: 60px;
     top: 100px;
 }
-
 .bubbles div:nth-child(3){
     width: 20px;
     height: 20px;
     left: 150px;
     top: 210px;
 }
-
 .bubbles div:nth-child(4){
     width: 55px;
     height: 55px;
     left: 50px;
     top: 230px;
 }
-
 .bubbles div:nth-child(5){
     width: 40px;
     height: 40px;
     right: 50px;
     bottom: 190px;
 }
-
 .bubbles div:nth-child(6){
     width: 50px;
     height: 50px;
     right: 110px;
     bottom: 100px;
 }
-
 .bubbles div:nth-child(7){
     width: 63px;
     height: 63px;
     right: 60px;
     bottom: 30px;
 }
-
 @keyframes bubble {
     to{
         top: 23px;
     }
 }
 
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+    .bubbles{
+        position: relative;
+        width: 130px;
+        left: 75px;
+        height: 50vh;
+        top: 70px;
+    }
+    .bubbles div:nth-child(1){
+        width: 15px;
+        height: 15px;
+        top: 10px; 
+        left: 10px;
+    }
+    .bubbles div:nth-child(2){
+        width: 40px;
+        height: 40px;
+        top: 40px;
+        left: 60px;
+    }
+    .bubbles div:nth-child(3){
+        width: 45px;
+        height: 45px;
+        top: 95px;
+        left: 25px;
+    }
+    .bubbles div:nth-child(4){
+        width: 60px;
+        height: 60px;
+        top: 160px;
+        left: 45px;
+    }
+    .bubbles div:nth-child(5){
+        width: 50px;
+        height: 50px;
+        bottom: 30px;
+        left: 30px;
+    }
+    #bubbles-div-six{ display: none !important;
+    }
+    #bubbles-div-seven{ display: none !important;
+    }
+    @keyframes bubble {
+    from{
+        top: 45px;
+        }
+    } 
+}

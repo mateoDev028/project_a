@@ -7,6 +7,7 @@
     position: relative;
     position: fixed;
     z-index: 1;
+    border-bottom: 1px;
 }
 
 .navbar-left{
@@ -20,10 +21,29 @@
     font-size: 35px;
 }
 
-
 .navbar-right{
     position: absolute;
     right: 50px;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+    /* .navbar{
+        height: 50px;
+        border-bottom: black solid 0.5px;
+
+    } */
+    .navbar-left{
+        left: 20px;
+    }
+    .navbar-left-text{
+        top: 0px;
+        font-size: 20px;
+    }
+    .navbar-right{
+        right: 20px;
+    }
 }
 
 

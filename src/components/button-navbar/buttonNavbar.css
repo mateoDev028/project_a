@@ -4,7 +4,7 @@
     justify-content: center;
     width:40px;
     height:40px;
-    border: 1px solid #8f6e15;
+    border: 1px solid #8f4c15;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 100% ;
@@ -13,7 +13,6 @@
   .button-options:hover{
     background-color: #8f6f1552;
     cursor: pointer;
-    
   }
   
   .button-options a{
@@ -21,3 +20,15 @@
     text-decoration:none;
     font-size: 10px;
   }
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+  .button-options{
+    width:30px;
+    height:30px;
+  }
+  .button-options a{
+    font-size: 9px;
+  }
+}

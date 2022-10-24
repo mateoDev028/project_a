@@ -13,3 +13,14 @@
     to{top: 110px}
 }
 
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+    .ilus-header{
+        margin-left: 80px;
+    }
+    .ilus-header-img{
+        max-width: 300px;
+    }
+}
+

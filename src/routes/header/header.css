@@ -19,6 +19,7 @@
     right: 0;
     width: 60vw;
     height: 100vh;
+
 }
 
 .header-container-img{
@@ -60,15 +61,40 @@
     height: 70px;
 }
 
-
+.header-right-text-dinamic{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 57px;
+    color: rgb(187, 57, 57);
+}
 .header-right-text-static{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: rgb(58, 55, 55);
 }
 
-.header-right-text-dinamic{
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 57px;
-    color: rgb(187, 57, 57);
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+    .header-right-text{
+        position: relative;
+        right: 140px;
+        top: 50px;
+    }
+    .header-right-container-text-dinamic{
+        position: relative;
+        display: flex;
+        right: 240px;
+        top: 380px;
+        width: 420px;
+        height: 70px;
+    }
+    .header-right-text-down{
+        position: relative;
+        top: 40px;
+        right: 200px;
+        width: 300px;
+        
+    }
+
 }
