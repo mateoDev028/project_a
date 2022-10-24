@@ -29,7 +29,7 @@ and (max-width: 780px) {
         font-size: 40px;
     }
     .header-text-dinamic-span{
-        top: 8px;
+        top: 0px;
         height: 40px;
     }
 }
