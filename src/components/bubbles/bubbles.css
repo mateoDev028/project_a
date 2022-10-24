@@ -95,7 +95,7 @@ and (max-width: 780px) {
     .bubbles div:nth-child(5){
         width: 50px;
         height: 50px;
-        bottom: 30px;
+        bottom: 60px;
         left: 30px;
     }
     #bubbles-div-six{ display: none !important;
@@ -104,7 +104,7 @@ and (max-width: 780px) {
     }
     @keyframes bubble {
     from{
-        top: 45px;
+        top: 50px;
         }
     } 
 }
