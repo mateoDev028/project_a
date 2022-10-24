@@ -98,13 +98,15 @@ and (max-width: 780px) {
         bottom: 96px;
         left: 30px;
     }
-    #bubbles-div-six{ display: none !important;
-    }
-    #bubbles-div-seven{ display: none !important;
-    }
     @keyframes bubble {
     from{
         top: 50px;
         }
     } 
+    #bubbles-div-six{ 
+        display: none !important;
+    }
+    #bubbles-div-seven{ 
+        display: none !important;
+    }
 }

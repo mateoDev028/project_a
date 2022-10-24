@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div className="header-right">
             <div className="header-container-img">
-                <img className="header-img" src={Forms} alt="" />
+                <img id='header-img-forms' className="header-img" src={Forms} alt="" />
             </div>
             <div className="header-bubbles">
                 <Bubbles />
