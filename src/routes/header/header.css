@@ -20,12 +20,12 @@
 }
 .header-container-img{
     position: absolute;
-    top: 100px;
-    left: 300px;
+    top: 40px;
+    left: 240px;
 }
 .header-img{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
 }
 .header-bubbles{
     position: relative;
