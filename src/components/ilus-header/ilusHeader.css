@@ -10,7 +10,9 @@
 }
 
 @keyframes float-ilus {
-    to{top: 110px}
+    to{
+        top: 100px
+    }
 }
 
 @media only screen
